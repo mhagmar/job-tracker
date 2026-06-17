@@ -18,7 +18,7 @@ function App() {
     if (!roleText.trim()) return;
     if (!companyText.trim()) return;
 
-    setJobs([...jobs, {roleName: roleText, companyName: companyText, applicationState: "Applied", applicationDate: new Date(), latestUpdateDate: new Date()}])
+    setJobs([...jobs, {roleName: roleText, companyName: companyText, applicationState: "Applied", applicationDate: new Date(), latestUpdate: new Date()}])
     setRoleText("");
     setCompanyText("");
   }
